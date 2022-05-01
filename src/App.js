@@ -1,9 +1,11 @@
-
+import React from 'react'
+import Banner from './components/banner'
 
 function App() {
   return (
     <div className="App">
-      <h1 className=' bg-cyan-700'>NAbih Portfolio</h1>
+      <Banner/>
+      
     </div>
   );
 }
