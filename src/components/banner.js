@@ -1,7 +1,7 @@
 import React from 'react'
 import pic from "../utils/images/bg.jpg";
 import data from "../utils/data"
-import './banner.css'
+import './global.css'
 
 const Banner = () => {
 

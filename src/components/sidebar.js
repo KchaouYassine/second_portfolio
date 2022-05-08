@@ -3,7 +3,7 @@ import React from 'react'
 const SiedbarComponent=(hrefValue,name , togglefunction)=> {
     return(
         <li className='list-none'><a className='my-3 text-3xl font-medium tracking-wide text-white uppercase hover:text-cyan ' 
-        href={`#${hrefValue}`} onClick={()=>togglefunction} >{name}</a></li>
+        href={`#${hrefValue}`} >{name}</a></li>
     )
 }
 
@@ -26,9 +26,9 @@ const  Sidebar = () => {
                 {/* <SiedbarComponent hrefValue="home" name="test" togglefunction={toogleMenu()}/> */}
                 <li className='list-none'><a className='my-3 text-3xl font-medium tracking-wide text-white uppercase hover:text-cyan ' href="#home" onClick={()=>toogleMenu()} >Home</a></li>
                 <li className='list-none'><a className='my-3 text-3xl font-medium tracking-wide text-white uppercase hover:text-cyan ' href="#about" onClick={()=>toogleMenu()}>About</a></li>
-                <li className='list-none'><a className='my-3 text-3xl font-medium tracking-wide text-white uppercase hover:text-cyan ' href="#">Experiences</a></li>
-                <li className='list-none'><a className='my-3 text-3xl font-medium tracking-wide text-white uppercase hover:text-cyan ' href="#">Work</a></li>
-                <li className='list-none'><a className='my-3 text-3xl font-medium tracking-wide text-white uppercase hover:text-cyan ' href="#">Contact</a></li>
+                <li className='list-none'><a className='my-3 text-3xl font-medium tracking-wide text-white uppercase hover:text-cyan ' href="#experiences" onClick={()=>toogleMenu()} >Experiences</a></li>
+                <li className='list-none'><a className='my-3 text-3xl font-medium tracking-wide text-white uppercase hover:text-cyan ' href="#hobbies" onClick={()=>toogleMenu()}>Hobbies</a></li>
+                <li className='list-none'><a className='my-3 text-3xl font-medium tracking-wide text-white uppercase hover:text-cyan ' href="#contact" onClick={()=>toogleMenu()}>Contact</a></li>
                 
             </ul>
 

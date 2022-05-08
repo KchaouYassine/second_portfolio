@@ -4,7 +4,8 @@ module.exports = {
     extend: {
       colors:{
         'cyan':'#00bcd4',
-        'gray':'#333'
+        'gray':'#333',
+        'contactbg':'#111'
       },
     },
   },
