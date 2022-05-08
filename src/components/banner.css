@@ -13,3 +13,6 @@
     background-repeat: no-repeat;
     cursor: pointer;
   }
+  .sidebar.active{
+    right:0
+    }

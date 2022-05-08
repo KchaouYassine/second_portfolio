@@ -1,0 +1,25 @@
+/* .title::before{ 
+    content: "";
+    left:50%;
+    bottom:-10px;
+    position:absolute;
+    transform: translateX(-50%);
+    width:60px;
+    height: 4px;
+    background-color:#fff
+    
+} */
+*
+{
+    scroll-behavior: smooth;
+}
+
+.expBox:hover img{
+    filter:invert(1)
+}
+.expBox:hover p{
+    color:#fff
+}
+.expBox:hover h2{
+    color:#fff
+}
