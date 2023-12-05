@@ -1,55 +1,31 @@
-import React,{Component} from 'react'
-import pic1 from "../utils/images/icon1.png";
+import React from 'react'
 import data from "../utils/data"
-import { AiFillAndroid } from 'react-icons/ai';
-import ReactHtmlParser from 'react-html-parser';
-
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { faCheckSquare, faCoffee } from '@fortawesome/free-solid-svg-icons'
-library.add(faCheckSquare, faCoffee)
-
 
 const Works = () => {
+    const workExperiencesData= data?.data?.workExperiences
 
-   const honoraryActivities=data?.data?.honoraryActivities
-//    const icons = require("@fortawesome/free-solid-svg-icons");
-
-   const renderCompoment = ( componentName) =>{
-    let MyComponent = componentName;
-    return <MyComponent  className='inline-block text-white icon text-9xl' style={{transition:'0.5s ease-in-out'}} />
-    }
+   
   return (
     <React.Fragment>
-        <section className="min-h-screen " id="works">
+        <section className="px-4" id="works">
         <div className='w-full my-8 text-center '>
-                <h1 className='relative py-2 text-3xl font-bold tracking-wider title text-cyan'>{honoraryActivities?.title}</h1>
-                <p className=''> {honoraryActivities?.indication}</p>
+                <h1 className='relative py-2 text-3xl font-bold tracking-wider title text-cyan'>Meine Projekte</h1>
         </div>
-        <div className='flex items-center justify-center'>
-        <div className='relative w-[80%]  flex justify-between flex-wrap my-[5%]'>
-                {honoraryActivities?.activities.map(activity =>{
-                   
-                    return( 
-                        <div className='card relative h-72 bg-slate-50 flex w-[45%]  my-4 mx-0 p-2'>
-                            <div className='cardImageBox absolute top-0 left-0 w-full h-full z-10  bg-[#333]  flex justify-center items-center overflow-hidden transition-all'  data-card={activity.cardHighlight}>
-                               {/* <AiFillAndroid className='inline-block text-white icon text-9xl' style={{transition:'0.5s ease-in-out'}} /> */}
-                               {/* <FontAwesomeIcon icon={faCoffee} className='inline-block text-white icon text-9xl' style={{transition:'0.5s ease-in-out'}} /> */}
-                               <FontAwesomeIcon icon={activity.cardIconName} className='inline-block text-white icon text-9xl' style={{transition:'0.5s ease-in-out'}} />
-                            </div>
-                            <div className='absolute right-0 flex flex-col items-start justify-center h-full p-5 ml-2 test'>
-                                <h3 className='mb-1 text-2xl font-bold'>{activity.cardTitle}</h3>
-                                <small  className='mb-1'>{activity.cardTime}</small>
-                                <ul className='ml-3 list-disc '>
-                                    {activity.cardActivities.map( (i,index)=>(<li key={index}>{i}</li>))}
-                                </ul>
-                            </div>
+        <div className='grid grid-cols-1 gap-x-48 gap-y-12 lg:grid-cols-2 lg:px-24'>
+            {
+                workExperiencesData.map(wE => (
+                    <div className='relative h-64 card w-400 md:w-auto bg-slate-50 '>
+                        <div className='cardImageBox absolute top-0 left-0 w-full h-full z-10 bg-[#333]  flex justify-center items-center overflow-hidden transition-all'  data-card={wE.title}>
+                            <img className='object-cover max-w-[100px] transition-all'  src={require(`./icons/works/${wE.icon}`)} height='128' width='128' alt ="icon"/>
                         </div>
-                    )
-                })}
-                
-                
-            </div>
+                        <div className='absolute right-0 flex flex-col items-start justify-center h-full p-5 ml-2 test'>
+                            <h3 className='mb-1 text-2xl font-bold'>{wE.title}</h3>
+                            <p>{wE.description}</p>
+                            <a className=' inline-block mt-3 px-3 py-1 decoration-none bg-[#333] text-white' href={wE.link}> Read More</a>
+                        </div>
+                    </div>
+                ))
+            }
         </div>
         
 

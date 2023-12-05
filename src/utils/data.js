@@ -1,8 +1,7 @@
-
 exports.data={ 
     home:{
-        name:"Nabih Salah",
-        work:"I'm an Embedded Systems Engineer",
+        name:"Mohamed Yassine Kchaou",
+        work:"I'm a Software Engineer",
         
         description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Est officiis quo porro quia praesentium? Animi quia optio, dolorum porro et accusantium quae, facilis mollitia eveniet beatae quos temporibus reiciendis quibusdam!Maiores, debitis, quibusdam officia soluta aliquam earum cupiditate vero sit distinctio facilis dignissimos temporibus. Ea, voluptatibus sunt tenetur magni id incidunt temporibus veniam, iure possimus similique minus mollitia aliquid! Tenetur!"
         
@@ -14,109 +13,139 @@ exports.data={
     
     },
     experiences:{
-        indication:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Est officiis quo ",
         experiences:[
             {
-                position:"Web Development",
-                society:"Fraunhofer Institut",
-                timeDuration:"momentary",
-                description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Est officiis quo  Lorem ipsum dolor sit amet consectetur adipisicing elit. Est officiis quo",
-                icon:""
+                position:"Praktikum",
+                society:"International Consulting CANADA",
+                timeDuration:"06/2021-09/2021",
+                description:"Ich habe bereits ein Praktikum im Bereich Webentwicklung absolviert, bei dem wir eine E-Learning-Plattform entwickelt haben. In diesem Projekt lag mein Fokus auf der Backend-Entwicklung. Dabei habe ich intensiv mit Django und PostgreSQL gearbeitet. ",
+                link : "https://www.ic-canada.com/",
+                icon:"icon3.png"
             },
             {
-                position:"Web Development",
-                society:"Fraunhofer Institut",
-                timeDuration:"momentary",
-                description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Est officiis quo  Lorem ipsum dolor sit amet consectetur adipisicing elit. Est officiis quo",
-                icon:""
-
+                position:"HiWi",
+                society:"Fraunhofer Institut ITWM",
+                timeDuration:"03/2022-11/2022",
+                description:"Meine erste berufliche Erfahrung war mit dem Projekt Appwag, das sich mit Resilienzfaktoren befasste. Dort arbeitete ich mit TypeScript, Tailwind, Strapi und GraphQL.",
+                link : "https://www.itwm.fraunhofer.de/de/abteilungen/optimierung/life-sciences/appwag.html" ,
+                icon:"icon2.png"
             },
             {
-                position:"Web Development",
-                society:"Fraunhofer Institut",
-                timeDuration:"momentary",
-                description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Est officiis quo  Lorem ipsum dolor sit amet consectetur adipisicing elit. Est officiis quo",
-                icon:""
-
+                position:" S.Engineering Project",
+                society:"Insiders Technologies GmbH",
+                timeDuration:"10/2022-02/2023",
+                description:"Gemeinsam mit meinen Kollegen habe ich ein Kartenspiel namens 'Blode-Kuh' entwickelt, wobei wir Java und JavaFX verwendet haben. In diesem Projekt habe ich auch Scrum erlernt und angewendet",
+                icon:"icon3.png"
+            },
+            {
+                position:"HiWi",
+                society:"Fraunhofer Institut ITWM",
+                timeDuration:"11/2022-momentan",
+                description:"Aktuell arbeite ich als studentische Hilfskraft (Hiwi) in der HPC-Abteilung am 'Green by IT: Amperix'-Projekt. Hier liegt mein Fokus auf der Entwicklung der Amperix-UI, wofür ich Vue.js und Bootstrap einsetze.",
+                icon:"icon2.png"
+            },
+            {
+                position:"Bachelor Project",
+                society:"RPTU",
+                timeDuration:"04/2023-07/2024",
+                description:"Im Bereich Software Engineering war ich in die Entwicklung der BASF Teen's Labbook Web-Plattform involviert. Dort habe ich Implementierungsaufgaben mit React und Y.js erfolgreich abgeschlossen.",
+                icon:"icon1.png"
+            },
+            {
+                position:"Bachelor Project",
+                society:"RPTU",
+                timeDuration:"04/2023-07/2024",
+                description:"Im Bereich Digital Farming war ich  am Digital Farming Projekt beteiligt. Gemeinsam mit meinen Kollegen haben wir eine Web-Plattform entwickelt, um den Farmbot zu steuern und Aufgaben wie das Pflanzen und Gießen zu automatisieren. Dabei kamen Vue.js, Node.js,  und Arduino zum Einsatz.",
+                icon:"icon1.png"
+            },
+            {
+                position:"Bachelor Arbeit",
+                society:"RPTU / BASF",
+                timeDuration:"momentan",
+                description:"Aktuell beschäftige ich mich in meiner Bachelorarbeit mit dem Thema 'Data Validation for JSON Imports/Exports and Application Level Updates in the BASF Teen's Labbook Web Platform'.",
+                icon:"icon1.png"
+            },
+            {
+                position:"Event Team",
+                society:"Uni Sport",
+                timeDuration:"momentan",
+                description:"Aktuell beschäftige ich mich in meiner Bachelorarbeit mit dem Thema 'Data Validation for JSON Imports/Exports and Application Level Updates in the BASF Teen's Labbook Web Platform'.",
+                icon:"icon4.png"
             }
 
         ]
     },
-    honoraryActivities:{
-        title:"Honorary Activities ",
-        indication:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Est officiis quo ",
-        activities:[
-            {
-                cardHighlight:"Academic",
-                cardIconName:"coffee",
-                cardTitle:"Academic Member",
-                cardTime:"Aug. 2015–März 2016",
-                cardActivities:[
-                    "Worked in a team of 10-members,doing everything together",
-                    "Trained to make one presentation weekly on certain topics to improve my presentation skills",
-                    "Worked as a leader for one task over a week, distribute tasks, following a progress, solve the team-member`s problems",
-                ]
-            },
-            {
-                cardHighlight:"HR",
-                cardIconName:"check-square",
-                cardTitle:"HR Member",
-                cardTime:"Sep. 2015–Mai 2016",
-                cardActivities:[
-                    "Worked in a team of 15+ members",
-                    "Made some interviews to about -10 candidates",
-                    "Made Performance Appraisal (PA) to another team of +6 members",
-                    "Had some training about motivation, interviewing skills"
-                ]
-            },
-            {
-                cardHighlight:"Academic",
-                cardIconName:"coffee",
-                cardTitle:"Academic Member",
-                cardTime:"Aug. 2015–März 2016",
-                cardActivities:[
-                    "Worked in a team of 10-members,doing everything together",
-                    "Trained to make one presentation weekly on certain topics to improve my presentation skills",
-                    "Worked as a leader for one task over a week, distribute tasks, following a progress, solve the team-member`s problems",
-                ]
-            },
-            {
-                cardHighlight:"Academic",
-                cardIconName:"coffee",
-                cardTitle:"Academic Member",
-                cardTime:"Aug. 2015–März 2016",
-                cardActivities:[
-                    "Worked in a team of 10-members,doing everything together",
-                    "Trained to make one presentation weekly on certain topics to improve my presentation skills",
-                    "Worked as a leader for one task over a week, distribute tasks, following a progress, solve the team-member`s problems",
-                ]
-            },
-        ]
-    },
-    skills:{
-        title:"My Skills ",
-        indication:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Est officiis quo ",
-        skills:[ 
-            {
-                skill:"HTML",
-                procent: "90%",
-            },
-            {
-                skill:"Java Script",
-                procent: "80%",
-            },
-            {
-                skill:"Css",
-                procent: "80%",
-            },
-            {
-                skill:"React",
-                procent: "70%",
-            },
-            {
-                skill:"Python",
-                procent: "60%",
-            }
-        ]
-    }
+    workExperiences: [
+        {
+            title: "Necklaces Magic",
+            description: "Das ist mein Start-up E-Commerce-Projekt, in dem ich bezaubernde Halsketten zum Verkauf anbiete.",
+            link : "www.necklacemagic.com",
+            icon: "icon1.png"
+        },
+        {
+            title: "Time Schedule",
+            description: "Diese Web-Plattform ermöglicht es Nutzern, ihre Arbeitsstunden einzutragen und die Gesamtsumme als PDF hochzuladen.",
+            link : "https://working-time-schedule.netlify.app/",
+            icon: "icon2.png"
+        },
+        {
+            title: "Ubibat Gmbh",
+            description: "Momentan bin ich als Freelancer mit der Entwicklung einer Webseite für die Firma Ubibat GmbH beschäftigt.",
+            link : "https://ubibat-test.netlify.app/",
+            icon: "icon3.png"
+        },
+        {
+            title: "Erste Portfolio",
+            description: "Hier ist mein erstes Portfolio über mich, entwickelt nachdem ich meine ersten Webprogrammiersprachen HTML, CSS und JavaScript gelernt habe.",
+            link : "https://ubibat-test.netlify.app/",
+            icon: "icon4.png"
+        }
+    ],
+    hobbies : [
+        {
+            title: "Radsport",
+            description: "Schon als Kind war Radfahren meine Leidenschaft, die bis heute anhält. 2016 und 2017 konnte ich den dritten Platz bei den tunesischen Meisterschaften erreichen. Auch hier in Deutschland unternehme ich regelmäßig Fahrradtouren mit meinem Rennrad.",
+            icon: "icon1.png"
+        },
+        {
+            title: "Bachata-Tanz",
+            description: "Aktuell nehme ich an einem Bachata-Tanzkurs an der Universität teil. Das Tanzen hat nicht nur meine sozialen Fähigkeiten verbessert, sondern bereichert auch mein Leben durch die Freude an dieser Tanzform.",
+            icon: "icon2.png"
+
+        },
+        {
+            title: "Videoproduktion",
+            description: "Bereits in meiner Kindheit interessierte ich mich für Grafik- und Videoproduktion. Seitdem beschäftige ich mich intensiv mit Animation und Design. Ich bin aktiv auf TikTok, wo ich Videos meiner Fahrradtouren erstelle und teile.",
+            icon: "icon3.png"
+
+        },
+        {
+            title: "Music",
+            description: "Musik hören bleibt für mich stets eine meiner motivierenden Quellen, die mir beim Lernen und Programmieren hilft.",
+            icon: "icon4.png"
+
+        }
+    ],
+    tools : [
+        {
+            title: "JS",
+            packages:["Java-script", "Vue.js", "React", "TypeScript", "Node.js"],
+            icon: "icon1.png"
+        },
+        {
+            title: "Css",
+            packages:["Bootstrap", "Tailwind"],
+            icon: "icon4.png"
+        },
+        {
+            title: "Progrmmierung",
+            packages:["Java", "Python", "F#"],
+            icon: "icon3.png"
+        },
+        {
+            title: "Adobe",
+            packages:["Adobe Photoshop", "Adobe Premier"],
+            icon: "icon2.png"
+        }
+    ]
 }

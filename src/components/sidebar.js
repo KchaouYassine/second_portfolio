@@ -30,6 +30,7 @@ const  Sidebar = () => {
                 <li className='px-3 py-1 my-1 list-none'><a data-text='experiences' className='relative text-5xl font-extrabold leading-5 tracking-wide text-transparent uppercase ' href="#experiences" onClick={()=>toogleMenu()} >Experiences</a></li>
                 <li className='px-3 py-1 my-1 list-none'><a data-text='works' className='relative text-5xl font-extrabold leading-5 tracking-wide text-transparent uppercase ' href="#works" onClick={()=>toogleMenu()} >Works</a></li>
                 <li className='px-3 py-1 my-1 list-none'><a data-text='hobbies' className='relative text-5xl font-extrabold leading-5 tracking-wide text-transparent uppercase ' href="#hobbies" onClick={()=>toogleMenu()}>Hobbies</a></li>
+                <li className='px-3 py-1 my-1 list-none'><a data-text='Kenntnisse' className='relative text-5xl font-extrabold leading-5 tracking-wide text-transparent uppercase ' href="#tools" onClick={()=>toogleMenu()}>Hobbies</a></li>
                 <li className='px-3 py-1 my-1 list-none'><a data-text='contact' className='relative text-5xl font-extrabold leading-5 tracking-wide text-transparent uppercase ' href="#contact" onClick={()=>toogleMenu()}>Contact</a></li>
                 
             </ul>

@@ -96,7 +96,7 @@
     top:calc(50% - 75px);
     transition:0.5s ease-in-out;
     background-color:#00bcd4
-} 
+}
 .cardImageBox:before{
     content:attr(data-card);
     position:absolute;
@@ -109,7 +109,11 @@
     color:rgba(255,255,255,0.05);
     font-weight:700
 }
-.card:hover .icon {
+.cardImageBox img{
+    filter:invert(1);
+  transition:0.5s ease-in-out;
+}
+.card:hover .cardImageBox img{
     max-width: 75px ;
     max-height: 75px ;
 }
