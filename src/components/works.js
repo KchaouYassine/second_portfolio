@@ -13,8 +13,8 @@ const Works = () => {
         </div>
         <div className='grid grid-cols-1 gap-x-48 gap-y-12 lg:grid-cols-2 lg:px-24'>
             {
-                workExperiencesData.map(wE => (
-                    <div className='relative h-64 card w-400 md:w-auto bg-slate-50 '>
+                workExperiencesData.map((wE, key) => (
+                    <div className='relative h-64 card w-400 md:w-auto bg-slate-50' key={key}>
                         <div className='cardImageBox absolute top-0 left-0 w-full h-full z-10 bg-[#333]  flex justify-center items-center overflow-hidden transition-all'  data-card={wE.title}>
                             <img className='object-cover max-w-[100px] transition-all'  src={require(`./icons/works/${wE.icon}`)} height='128' width='128' alt ="icon"/>
                         </div>

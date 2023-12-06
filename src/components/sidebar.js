@@ -1,11 +1,13 @@
 import React from 'react'
 
+/*
 const SiedbarComponent=(hrefValue,name , togglefunction)=> {
     return(
         <li className='list-none'><a className='my-3 text-3xl font-medium tracking-wide text-white uppercase hover:text-cyan ' 
         href={`#${hrefValue}`} >{name}</a></li>
     )
 }
+*/
 
 const  Sidebar = () => {
 

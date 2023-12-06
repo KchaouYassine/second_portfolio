@@ -14,9 +14,9 @@ const Experiences = () => {
 
             <div className='grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-4'>
                 {
-                    experiencesData.experiences.map(experience =>(
+                    experiencesData.experiences.map((experience,key) =>(
 
-                        <div className="text-center py-10 px-5 m-2 transition-all bg-slate-50 max-w-[340px] hover:bg-black expBox ">
+                        <div className="text-center py-10 px-5 m-2 transition-all bg-slate-50 max-w-[340px] hover:bg-black expBox " key={key}>
                             <div className='flex justify-center w-full transition-all '>
                                 <img  className='object-cover max-w-7xl' src={require(`./icons/experiences/${experience.icon}`)} height='128' width='128' alt ="icon"/>
                             </div>
