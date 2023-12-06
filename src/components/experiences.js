@@ -25,6 +25,7 @@ const Experiences = () => {
                             <h4 className=' bg-cyan ml-[-1.25rem] mr-[-1.25rem] p-3 text-xl font-medium text-white'>{experience.society}</h4>
                             <small className=''>{experience.timeDuration}</small>
                             <p className='mb-5'>{experience.description} </p>
+                            { /* eslint-disable-next-line */}
                             <a href='#' className='py-3 my-2 font-medium text-white px-7 bg-cyan' >More</a>
                     </div>
                     ))  

@@ -1,8 +1,6 @@
 import React from 'react'
 import data from '../utils/data'
 
-
-
 const Hobbies = () => {
 
   const hobbiesData = data?.data?.hobbies

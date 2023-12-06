@@ -2,9 +2,7 @@ import React from 'react'
 import data from "../utils/data"
 
 const Tools = () => {
-    const toolsData= data?.data?.tools
-
-   
+    const toolsData= data?.data?.tools   
   return (
     <React.Fragment>
         <section className="px-4 mb-8" id="tools">

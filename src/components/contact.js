@@ -2,9 +2,6 @@ import React, {useState} from 'react'
 import './global.css'
 import emailjs from '@emailjs/browser'
 
-
-
-
 const Contact = () => {
   const [feedback, setFeedback ] = useState('Freue mich auf Ihre Nachricht!')
   const [ firstName , setFirstName] = useState('')

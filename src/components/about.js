@@ -1,7 +1,5 @@
 import React from 'react'
 import pic from "../utils/images/aboutMe.jpg";
-
-import data from "../utils/data"
 import './global.css'
 
 const About = () => {  

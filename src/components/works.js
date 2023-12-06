@@ -2,9 +2,7 @@ import React from 'react'
 import data from "../utils/data"
 
 const Works = () => {
-    const workExperiencesData= data?.data?.workExperiences
-
-   
+    const workExperiencesData= data?.data?.workExperiences   
   return (
     <React.Fragment>
         <section className="px-4" id="works">
