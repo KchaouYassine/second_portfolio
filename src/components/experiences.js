@@ -26,7 +26,7 @@ const Experiences = () => {
                             <small className=''>{experience.timeDuration}</small>
                             <p className='mb-5'>{experience.description} </p>
                             { /* eslint-disable-next-line */}
-                            <a href='#' className='py-3 my-2 font-medium text-white px-7 bg-cyan' >More</a>
+                            { /* <a href='#' className='py-3 my-2 font-medium text-white px-7 bg-cyan' >More</a> */}
                     </div>
                     ))  
                 }

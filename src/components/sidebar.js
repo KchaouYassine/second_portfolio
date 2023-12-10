@@ -28,12 +28,12 @@ const  Sidebar = () => {
             <ul id="sidebarID" className='flex flex-col content-center justify-center text-center '>
                 {/* <SiedbarComponent hrefValue="home" name="test" togglefunction={toogleMenu()}/> */}
                 <li className='px-3 py-1 my-1 list-none'><a data-text='home' className='relative text-5xl font-extrabold leading-5 tracking-wide text-transparent uppercase ' href="#home" onClick={()=>toogleMenu()} >Home</a></li>
-                <li className='px-3 py-1 my-1 list-none'><a  data-text='about'className='relative text-5xl font-extrabold leading-5 tracking-wide text-transparent uppercase ' href="#about" onClick={()=>toogleMenu()}>About</a></li>
-                <li className='px-3 py-1 my-1 list-none'><a data-text='experiences' className='relative text-5xl font-extrabold leading-5 tracking-wide text-transparent uppercase ' href="#experiences" onClick={()=>toogleMenu()} >Experiences</a></li>
-                <li className='px-3 py-1 my-1 list-none'><a data-text='works' className='relative text-5xl font-extrabold leading-5 tracking-wide text-transparent uppercase ' href="#works" onClick={()=>toogleMenu()} >Works</a></li>
+                <li className='px-3 py-1 my-1 list-none'><a  data-text='about'className='relative text-5xl font-extrabold leading-5 tracking-wide text-transparent uppercase ' href="#about" onClick={()=>toogleMenu()}>Über mich</a></li>
+                <li className='px-3 py-1 my-1 list-none'><a data-text='experiences' className='relative text-5xl font-extrabold leading-5 tracking-wide text-transparent uppercase ' href="#experiences" onClick={()=>toogleMenu()} >Erfahrungen</a></li>
+                <li className='px-3 py-1 my-1 list-none'><a data-text='works' className='relative text-5xl font-extrabold leading-5 tracking-wide text-transparent uppercase ' href="#works" onClick={()=>toogleMenu()} >Projekte</a></li>
                 <li className='px-3 py-1 my-1 list-none'><a data-text='hobbies' className='relative text-5xl font-extrabold leading-5 tracking-wide text-transparent uppercase ' href="#hobbies" onClick={()=>toogleMenu()}>Hobbies</a></li>
-                <li className='px-3 py-1 my-1 list-none'><a data-text='Kenntnisse' className='relative text-5xl font-extrabold leading-5 tracking-wide text-transparent uppercase ' href="#tools" onClick={()=>toogleMenu()}>Hobbies</a></li>
-                <li className='px-3 py-1 my-1 list-none'><a data-text='contact' className='relative text-5xl font-extrabold leading-5 tracking-wide text-transparent uppercase ' href="#contact" onClick={()=>toogleMenu()}>Contact</a></li>
+                <li className='px-3 py-1 my-1 list-none'><a data-text='Kenntnisse' className='relative text-5xl font-extrabold leading-5 tracking-wide text-transparent uppercase ' href="#tools" onClick={()=>toogleMenu()}>Kenntnisse</a></li>
+                <li className='px-3 py-1 my-1 list-none'><a data-text='contact' className='relative text-5xl font-extrabold leading-5 tracking-wide text-transparent uppercase ' href="#contact" onClick={()=>toogleMenu()}>Kontaktiere mcih</a></li>
                 
             </ul>
 

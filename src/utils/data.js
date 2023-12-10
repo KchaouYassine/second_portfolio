@@ -68,8 +68,8 @@ exports.data={
             {
                 position:"Event Team",
                 society:"Uni Sport",
-                timeDuration:"momentan",
-                description:"Aktuell beschäftige ich mich in meiner Bachelorarbeit mit dem Thema 'Data Validation for JSON Imports/Exports and Application Level Updates in the BASF Teen's Labbook Web Platform'.",
+                timeDuration:"03/2023-momentan",
+                description:"Ich spüre den Wunsch, in meinem Leben etwas Abwechslung zu suchen und mich ein wenig von der digitalen Welt zu entfernen. Deshalb engagiere ich mich im Event-Team bei Uni-Sport. Diese Erfahrung bietet mir die Gelegenheit, Spaß im Leben zu haben und meinen Freundeskreis zu erweitern .",
                 icon:"icon4.png"
             }
 
@@ -79,7 +79,7 @@ exports.data={
         {
             title: "Necklaces Magic",
             description: "Das ist mein Start-up E-Commerce-Projekt, in dem ich bezaubernde Halsketten zum Verkauf anbiete.",
-            link : "www.necklacemagic.com",
+            link : "http://necklacemagic.com/#/de/home",
             icon: "icon1.png"
         },
         {
@@ -97,7 +97,7 @@ exports.data={
         {
             title: "Erste Portfolio",
             description: "Hier ist mein erstes Portfolio über mich, entwickelt nachdem ich meine ersten Webprogrammiersprachen HTML, CSS und JavaScript gelernt habe.",
-            link : "https://ubibat-test.netlify.app/",
+            link : "https://yassine-kchaou.netlify.app",
             icon: "icon4.png"
         }
     ],
