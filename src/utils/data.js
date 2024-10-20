@@ -6,12 +6,7 @@ exports.data={
         description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Est officiis quo porro quia praesentium? Animi quia optio, dolorum porro et accusantium quae, facilis mollitia eveniet beatae quos temporibus reiciendis quibusdam!Maiores, debitis, quibusdam officia soluta aliquam earum cupiditate vero sit distinctio facilis dignissimos temporibus. Ea, voluptatibus sunt tenetur magni id incidunt temporibus veniam, iure possimus similique minus mollitia aliquid! Tenetur!"
         
     },
-    about:{
-        indication:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Est officiis quo ",
-        description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Est officiis quo porro quia praesentium? Animi quia optio, dolorum porro et accusantium quae, facilis mollitia eveniet beatae quos temporibus reiciendis quibusdamMaiores, debitis, quibusdam officia soluta aliquam earum cupiditate vero sit distinctio facilis dignissimos temporibus. Ea, voluptatibus sunt tenetur magni id incidunt temporibus veniam, iure possimus similique minus mollitia aliquid! Tenetur!Lorem ipsum dolor sit amet consectetur adipisicing elit. Est officiis quo porro quia praesentium? Animi quia optio, dolorum porro et accusantium quae, facilis mollitia eveniet beatae quos temporibus reiciendis quibusdam!Maiores, debitis, quibusdam officia soluta aliquam earum cupiditate vero sit distinctio facilis dignissimos temporibus. Ea, voluptatibus sunt tenetur magni id incidunt temporibus veniam, iure possimus similique minus mollitia aliquid! Tenetur!",
-        image:"?????"
-    
-    },
+
     experiences:{
         experiences:[
             {
@@ -79,7 +74,7 @@ exports.data={
         {
             title: "Necklaces Magic",
             description: "Das ist mein Start-up E-Commerce-Projekt, in dem ich bezaubernde Halsketten zum Verkauf anbiete.",
-            link : "http://necklacemagic.com/#/de/home",
+            link : "https://necklacemagic.com/#/de/home",
             icon: "icon1.png"
         },
         {
@@ -91,7 +86,7 @@ exports.data={
         {
             title: "Ubibat Gmbh",
             description: "Momentan bin ich als Freelancer mit der Entwicklung einer Webseite für die Firma Ubibat GmbH beschäftigt.",
-            link : "https://ubibat-test.netlify.app/",
+            link : "https://ubibat-france.com/",
             icon: "icon3.png"
         },
         {
